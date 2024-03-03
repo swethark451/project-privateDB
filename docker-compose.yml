@@ -11,7 +11,3 @@ services:
       MYSQL_PASSWORD: admin
       MYSQL_DB: myDb
 
- volumes:
-  mysql-data:     
-    
-  
