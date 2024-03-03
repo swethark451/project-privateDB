@@ -1,0 +1,14 @@
+version: '3'
+services:
+  
+  backend:
+    image: flask
+    ports:
+      - "5000:5000"
+    environment:
+      MYSQL_HOST: 172.31.69.137
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+      MYSQL_DB: myDb
+    
+  
